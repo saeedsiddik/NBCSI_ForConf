@@ -1,10 +1,12 @@
 # NotebookCodeStyle_ForConf
 Analysis of Notebook Code Style Issue 
 
-Execute EMSE_Conf_NB_Code_Style_Analysis.ipynb to get replicate the results reported in this paper. It is a notebook file where the markdown cells describe the code sections sequentially. 
+**`EMSE_Conf_NB_Code_Style_Analysis.ipynb`** - To replicate the results reported in this paper, execute EMSE_Conf_NB_Code_Style_Analysis.ipynb. It is a notebook file where the markdown cells describe the code sections sequentially. 
+
+
 
 ## Data
-We stored the data into a SQLite database. The database consists of the following tables:
+We stored the data into a SQLite database. The db file is available in data/ directory. The database consists of the following tables:
 ```
 +-------------------+
 |      database     |
