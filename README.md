@@ -17,8 +17,8 @@ We stored the data into a SQLite database. The db file is available in data/ dir
 |      database     |
 +-------------------+
 | NBFILES           |
-| NBRATINGS         |
-| NBISSUES          |
+| NBRATING         |
+| NBISSUE          |
 | ISSUEFREWQUENCY   |
 +-------------------+
 ```
@@ -31,22 +31,22 @@ We stored the data into a SQLite database. The db file is available in data/ dir
 | Type              |	
 +-------------------+	
 ```
-2. **`NBRATINGS`**  — a table that stores the notebook Filename and its Rating (INT value ranges 0 to 10).
+2. **`NBRATING`**  — a table that stores the notebook Filename and its Rating (INT value ranges 0 to 10).
 
 ```
 +-------------------+	
-|      NBRATINGS     |	
+|      NBRATING     |	
 +-------------------+	
 | Filename          |	
-| Rating              |	
+| Rating            |	
 +-------------------+	
 ```
 
-3. **`NBISSUES`**  — a table that stores the the notebook Filename, Issue (Pylint issue code), Cell Number (the code cell containing the issue), and Line (line number containing the issue).
+3. **`NBISSUE`**  — a table that stores the the notebook Filename, Issue (Pylint issue code), Cell Number (the code cell containing the issue), and Line (line number containing the issue).
 
 ```
 +-------------------+	
-|      NBISSUES     |	
+|      NBISSUE      |	
 +-------------------+	
 | Filename          |	
 | Issue             |	
