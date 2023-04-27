@@ -1,6 +1,7 @@
 # NotebookCodeStyle_ForConf
 Analysis of Notebook Code Style Issue 
 
+## Notebook Files
 **`EMSE_Conf_NB_Code_Style_Analysis.ipynb`** - To replicate the results reported in this paper, execute EMSE_Conf_NB_Code_Style_Analysis.ipynb. It is a notebook file where the markdown cells describe the code sections sequentially. 
 
 **`EMSE_Conf_NB_Pylint_Execution.ipynb`** - This notebook contains the code for Pylint execution. It works on notebook files and generates text files containing code style issues and quality ratings.   
