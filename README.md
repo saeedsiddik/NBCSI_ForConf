@@ -1,5 +1,5 @@
 # NotebookCodeStyle_ForConf
-This is the code for analyzing Jupyter Notebook Code Style Issues. To reproduce the results, you need to clone this project or download the entire project, including the data directory. Then run the following notebook files to get the results. The notebook file entitled EMSE_Conf_NB_Code_Style_Analysis.ipynb contains the code for result analysis. Rest threes are for data pre-processing and storing in the database.       
+This is the code for analyzing Jupyter Notebook Code Style Issues. To reproduce the results, you need to clone this project or download the entire project, including the data directory. Then run the following notebook files to get the results. The notebook file entitled `EMSE_Conf_NB_Code_Style_Analysis.ipynb` contains the code for result analysis. Rest threes are for data pre-processing and storing in the database.       
 
 ## Notebook Files
 **`EMSE_Conf_NB_Code_Style_Analysis.ipynb`** - To replicate the results reported in this paper, execute EMSE_Conf_NB_Code_Style_Analysis.ipynb. It is a notebook file where the markdown cells describe the code sections sequentially. 
