@@ -1,5 +1,5 @@
 # NotebookCodeStyle_ForConf
-This is the code for analyzing Jupyter Notebook Code Style Issues. To reproduce the results, you need to clone this project or download the entire project, including the data directory. Then run the following notebook files to get the results. The notebook file entitled `2023_Conf_NB_Code_Style_Analysis.ipynb` contains the code for result analysis. Rest threes are for data pre-processing and storing in the database.       
+This is the code for analyzing Jupyter Notebook Code Style Issues. To reproduce the results, you need to clone this project or download the entire project, including the data directory. Then, run the following notebook files to get the results. The notebook file entitled `2023_Conf_NB_Code_Style_Analysis.ipynb` contains the code for result analysis. The other three are for data pre-processing and storing in the database.       
 
 ## Notebook Files
 **`2023_Conf_NB_Code_Style_Analysis.ipynb`** - To replicate the results reported in this paper, execute 2023_Conf_NB_Code_Style_Analysis.ipynb. It is a notebook file where the markdown cells describe the code sections sequentially. 
@@ -11,7 +11,7 @@ This is the code for analyzing Jupyter Notebook Code Style Issues. To reproduce 
 **`2023_Conf_Pylint_NB_Text_Analysis.ipynb`** - This notebook contains the code for renaming the output ipynb file name. 
 
 ## Data
-We stored the data into a SQLite database. The db file is available in data/ directory. The database consists of the following tables:
+We stored the data in a SQLite database. The db file is available in data/ directory. The database consists of the following tables:
 ```
 +-------------------+
 |      database     |
@@ -66,3 +66,7 @@ We stored the data into a SQLite database. The db file is available in data/ dir
 | Frequency         |	
 +-------------------+	
 ```
+Notebooks used in this empirical study can be available at https://zenodo.org/records/4468523 
+
+The result of this study has been published at the IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM). 
+M. S. Siddik and C. -P. Bezemer, "Do Code Quality and Style Issues Differ Across (Non-)Machine Learning Notebooks? Yes!," 2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM), Bogotá, Colombia, 2023, pp. 72-83, doi: 10.1109/SCAM59687.2023.00018.
