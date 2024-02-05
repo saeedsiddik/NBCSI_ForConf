@@ -69,4 +69,5 @@ We stored the data in a SQLite database. The db file is available in data/ direc
 Notebooks used in this empirical study can be available at https://zenodo.org/records/4468523 
 
 The result of this study has been published at the IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM). 
-M. S. Siddik and C. -P. Bezemer, "Do Code Quality and Style Issues Differ Across (Non-)Machine Learning Notebooks? Yes!," 2023 IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM), Bogotá, Colombia, 2023, pp. 72-83, doi: 10.1109/SCAM59687.2023.00018.
+
+M. S. Siddik and C. -P. Bezemer, "Do Code Quality and Style Issues Differ Across (Non-)Machine Learning Notebooks? Yes!," 2023 _IEEE 23rd International Working Conference on Source Code Analysis and Manipulation (SCAM)_, Bogotá, Colombia, 2023, pp. 72-83, doi: 10.1109/SCAM59687.2023.00018.
